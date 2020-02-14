@@ -16,6 +16,7 @@ def hopper
         }
      }
   programmer_hash[:alan_kay][:known_for] = "COBOL"
+  programmer_hash[:alan_kay][:known_for] = "COBOL"
   programmer_hash[:dennis_ritchie][:known_for] = "COBOL"
 end
 
