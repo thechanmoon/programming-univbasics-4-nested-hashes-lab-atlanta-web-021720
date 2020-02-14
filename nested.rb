@@ -16,8 +16,10 @@ def hopper
         }
      }
   programmer_hash[:alan_kay][:known_for] = "COBOL"
-  programmer_hash[:alan_kay][:known_for] = "COBOL"
-  programmer_hash[:dennis_ritchie][:known_for] = "COBOL"
+  programmer_hash[:alan_kay][:languages] = "COBOL"
+  programmer_hash[:dennis_ritchie][:known_for] =  ["COBOL", "FORTRAN"]
+  programmer_hash[:dennis_ritchie][:languages] =  ["COBOL", "FORTRAN"]
+  return programmer_hash
 end
 
 def alan_kay_is_known_for
